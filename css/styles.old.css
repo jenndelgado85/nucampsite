@@ -1,14 +1,13 @@
 body {
-    font-family: "Open Sans", sans-serif; 
+    font-family: "Open Sans", sans-serif;
 }
-
 
 h1,h2, h3 {
     font-family: "Lobster", cursive;
 }
 
 h2 {
-    color: #663300;
+    color: #3046c5
 }
 
 header h2 {
@@ -16,17 +15,16 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#aa6c0f, white);
+    background-image: linear-gradient(#cec8ff, white) ;
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #dddacd, #ffea80, #fc941d);
-    color: rgb(252, 252, 252);
+    background-image: linear-gradient(to right, #5637DD, #3046c5, #60106B);
+    color: white;
 }
-
 
 .row-content {
     padding: 50px 0;
@@ -35,7 +33,7 @@ header h2 {
 }
 
 .navbar-dark {
-    background-color:#c93b10;
+    background-color: #901CAD
 }
 
 .tab-content {
@@ -49,14 +47,12 @@ header h2 {
 }
 
 .carousel {
-    border: solid #341f0c;
+    border: solid #5637DD;
 }
 
-.backgroundImage{
-    background-image: url("/img/daan-weijers-pSaEMIiUO84-unsplash\ \(2\).jpg");
-    opacity: .3;
-}
-
-.footerLinks{
-    color:#341f0c;
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
